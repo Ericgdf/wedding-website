@@ -1,0 +1,8 @@
+.separation_line{
+    height: 2px;
+    border-radius: 1em;
+    width: 70%;
+    margin-top: 3em;
+    margin-bottom: 1.5em;
+    background-color: var(--text-color);
+}

@@ -1,0 +1,67 @@
+.program_section_background{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.timeline_background{
+    display: flex;
+    gap :0
+    
+}
+
+.event_background{
+    gap: 1em;
+}
+
+.left{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: -0.6em;
+    text-align: end;
+}
+
+.right{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: -0.6em;
+}
+
+.start{
+    align-items: flex-start;
+}
+
+.end{
+    align-items: flex-end;
+}
+
+.timeline_left{
+    border-right: 4px solid var(--text-color);
+}
+
+
+
+.shadow_box{
+    height: 8em;
+}
+
+.ring{
+    height: 1em;
+    width: 1em;
+    background-color: var(--text-color-light);
+    border: 3px solid var(--text-color);
+    border-radius: 1em;
+}
+
+.timeAndDate_text{
+    color: var(--text-color-light);
+    font-size: 1.2em;
+    font-weight: 200;
+}
+
+.event_text{
+    font-weight: 500;
+}
+

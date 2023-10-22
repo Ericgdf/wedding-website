@@ -1,0 +1,75 @@
+.welcome_background{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+.img_container{
+    height: 75vh;
+    width: 100%;
+    position: relative;
+    
+
+}
+
+.overlay{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.478);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content:center;
+    font-family: var(--title);
+    font-size: 4em;
+    color: var(--text-color-light);
+    text-align: center;
+}
+.home_img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.welcome_text{
+    margin-top: 0.5em;
+}
+
+.wedding_date{
+    margin-top: 1em;
+    font-weight: 300;
+}
+
+.wedding_date_number{
+    margin-top: 0.5em;
+    font-size: 1.5em;
+    font-weight: 100;
+}
+
+button{
+    margin-top: 1.5em;
+    padding: 1em;
+    border: 2px solid var(--text-color-light);
+    background-color: var(--background);
+    color: var(--text-color-light);
+    font-size: 0.8em;
+    border-radius: 0.2em;
+}
+
+button:hover{
+    background-color: var(--text-color-light);
+    color: var(--background); 
+    cursor: pointer;
+}
+
+.text_welcome_section{
+    margin-top: 2em;
+    width: 70%;
+    font-size: 0.9em;
+    text-align: center;
+
+}
+
