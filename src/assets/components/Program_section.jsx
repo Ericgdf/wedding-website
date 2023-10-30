@@ -4,7 +4,7 @@ import './program_section.css'
 const Program_section = () => {
   return (
     <div className='program_section_background'>
-      <h2 className='section_title'>Programme</h2>
+      <h2 className='section_title' id='program'>Programme</h2>
       <div className="timeline_background">
         <div className="timeline_left">
         <div className='event_background left start'> 

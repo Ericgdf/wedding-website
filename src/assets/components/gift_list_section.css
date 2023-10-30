@@ -8,3 +8,10 @@
 .gift_explanation{
     text-align: center;
 }
+
+@media screen and (max-width:  480px) {
+    .gift_explanation{
+        text-align: justify;
+    }
+
+}

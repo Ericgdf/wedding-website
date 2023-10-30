@@ -1,0 +1,74 @@
+.contact_background{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+
+.contact_content_background{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3em;
+    position: relative;
+    text-align: center;
+    margin-bottom: 10em;
+}
+
+.contact_text_background{
+    display: flex;
+   gap: 3em;
+}
+
+
+.overlay_contact{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.06);
+    width: 20em;
+    height: 20em;
+    border-radius: 20em;
+    top: 0;
+}
+
+.contact_picture{
+    width: 20em;
+    height: 20em;
+    object-fit: cover;
+    border-radius: 20em;
+}
+
+.name{
+    font-size: 1.2em;
+    font-weight: 300;
+    margin-bottom: 1em;
+}
+
+.info_contact{
+    font-size: 1em;
+    color: var(--text-color-light);
+    margin-bottom: 2em;
+}
+
+.signature{
+    font-size: 0.8em;
+    margin-bottom: 0.5em;
+}
+
+
+@media screen and (max-width:  480px) {
+    .contact_picture{
+        width: 15em;
+        height: 15em;
+    }
+
+    .overlay_contact{
+        width: 15em;
+        height: 15em;
+    }
+
+    .contact_text_background{
+        flex-direction: column;
+    }
+}

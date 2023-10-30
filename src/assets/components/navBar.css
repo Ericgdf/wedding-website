@@ -1,11 +1,18 @@
 .nav_background{
+    background-color: var(--background);
+    opacity: 0.9;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0.2em 0.5em 0.3em 0.5em;
+    position: fixed;
+    z-index: 200;
 }
+
+
 .website_name{
+   
     font-family: var(--title);
     font-size: 1.5em;
     color: var(--text-color-light);
@@ -31,6 +38,63 @@ nav a {
   
 nav a:hover {
     text-decoration: underline;
+}
+
+.mobil{
+    display: none;
+}
+
+@media screen and (max-width: 960px) {
+
+    .nav_background{
+        opacity: 1;
+    }
+    .computer{
+        display: none;
+    }
+
+    .mobil{
+        display: flex;
+    }
+
+    .burger_menu{
+        height: 1.5em;
+        width: 1.5em;
+        margin: 0.5em;
+    }
+
+    .website_name_menu{
+        font-family: var(--title);
+        font-size: 1.5em;
+        margin-bottom: 1.5em;
+    }
+
+    .burgerMenuBackground{
+        padding: 2em;
+        height: 100vh;
+        width: 100vw;
+        position: relative;
+        z-index: 20000;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+     
+    }
+
+    .list_background_column{
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav li{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 2em;
+        font-size: 1.5em;
+        font-weight: 200;
+    }
+    
 }
   
 

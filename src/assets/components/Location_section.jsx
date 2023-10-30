@@ -5,7 +5,7 @@ import castlePicture from '../img/chateau_bone.png'
 const Location_section = () => {
   return (
     <div className='location_background'>
-        <h2 className="section_title">Le lieux</h2>
+        <h2 className="section_title" id='location'>Le lieux</h2>
         <div className="presentation_location_background">
             <img className= 'castle_picture' src={castlePicture} alt="" />
             <div className="text_presentation_background">

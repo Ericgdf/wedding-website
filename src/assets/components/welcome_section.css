@@ -27,11 +27,14 @@
     font-size: 4em;
     color: var(--text-color-light);
     text-align: center;
+    z-index: 202;
 }
 .home_img{
+    position: relative;
     height: 100%;
     width: 100%;
     object-fit: cover;
+    z-index: 201;
 }
 
 .welcome_text{
@@ -49,6 +52,15 @@
     font-weight: 100;
 }
 
+@keyframes zoomInOut {
+    0% {
+        transform: scale(1); /* Taille d'origine */
+    }
+    100% {
+        transform: scale(1.1); /* Augmente la taille de 10% */
+    }
+}
+
 button{
     margin-top: 1.5em;
     padding: 1em;
@@ -57,7 +69,10 @@ button{
     color: var(--text-color-light);
     font-size: 0.8em;
     border-radius: 0.2em;
+
 }
+
+
 
 button:hover{
     background-color: var(--text-color-light);
@@ -68,8 +83,12 @@ button:hover{
 .text_welcome_section{
     margin-top: 2em;
     width: 70%;
-    font-size: 0.9em;
     text-align: center;
 
 }
 
+@media screen and (max-width:  480px) {
+    .overlay{
+        font-size: 3em;
+    }
+}

@@ -7,6 +7,7 @@ import Location_section from '../assets/components/Location_section'
 import Separator from '../assets/components/Separator'
 import Program_section from '../assets/components/Program_section'
 import Gift_list_section from '../assets/components/gift_list_section'
+import ContactSection from '../assets/components/Contact_section'
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
       <Separator/>
       <Gift_list_section/>
       <Separator/>
+      <ContactSection/>
     </div>
   )
 }

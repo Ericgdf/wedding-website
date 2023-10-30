@@ -37,3 +37,19 @@
     color: var(--text-color-light);
     font-weight: 400;
 }
+
+@media screen and (max-width: 900px) {
+    .presentation_location_background{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+
+@media screen and (max-width:  480px) {
+    .castle_picture{
+        width: 15em;
+        height: 15em;
+    }
+    
+}
