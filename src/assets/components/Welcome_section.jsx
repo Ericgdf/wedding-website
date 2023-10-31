@@ -19,7 +19,7 @@ const Welcome_section = () => {
             particleCount: 2,
             angle: 60,
             spread: 55,
-            origin: { x: 0 },
+            origin: { x: 0, y:0.7 },
             colors: colors,
             zIndex: 2500,
           });
@@ -27,7 +27,7 @@ const Welcome_section = () => {
             particleCount: 2,
             angle: 120,
             spread: 55,
-            origin: { x: 1 },
+            origin: { x: 1, y:0.7 },
             colors: colors,
             zIndex: 2500,
           });
