@@ -17,7 +17,7 @@ html{
 :root{
   --title : 'Italiana';
   --background : #23361E;
-  --text-color-light : hsl(39, 69%, 96%);
-  --text-color : hsl(24, 48%, 80%);
+  --text-color-light : #fcf7ee;
+  --text-color : #e4c7b4;
 
 }
