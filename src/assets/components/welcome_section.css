@@ -42,14 +42,14 @@
 }
 
 .wedding_date{
-    margin-top: 1em;
-    font-weight: 300;
+    margin-top: 3em;
+    font-weight: 200;
 }
 
 .wedding_date_number{
     margin-top: 0.5em;
     font-size: 1.5em;
-    font-weight: 100;
+    font-weight: 400;
 }
 
 @keyframes zoomInOut {
@@ -62,7 +62,7 @@
 }
 
 button{
-    margin-top: 1.5em;
+    margin-top: 3em;
     padding: 1em;
     border: 2px solid var(--text-color-light);
     background-color: var(--background);
@@ -81,7 +81,7 @@ button:hover{
 }
 
 .text_welcome_section{
-    margin-top: 2em;
+    margin-top: 3em;
     width: 70%;
     text-align: center;
 
