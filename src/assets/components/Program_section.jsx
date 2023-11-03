@@ -10,7 +10,7 @@ const Program_section = () => {
         <div className='event_background left start'> 
             <div className="text">
               <p className="timeAndDate_text">Vendredi 10 mai <br/>16h00 :</p>
-              <p className="event_text">Cérémonie Laïque au Châteaux de Bône</p>
+              <p className="event_text">Cérémonie Laïque au Château de Bône</p>
             </div>
             <div className="ring"></div>
           </div>
@@ -40,7 +40,7 @@ const Program_section = () => {
             <div className="ring"></div>
             <div className="text">
               <p className="timeAndDate_text">Vendredi 10 mai <br/>18h30 :</p>
-              <p className="event_text">Coktail dans le parc du Château</p>
+              <p className="event_text">Cocktail dans le parc du Château</p>
             </div>
           </div>
           <div className="shadow_box"></div>
@@ -56,7 +56,7 @@ const Program_section = () => {
             <div className="ring"></div>
             <div className="text">
               <p className="timeAndDate_text">Samedi 11 Mai <br/>10h30 :</p>
-              <p className="event_text">Brunch au Châteaux</p>
+              <p className="event_text">Brunch au Château</p>
             </div>
           </div>
         </div>

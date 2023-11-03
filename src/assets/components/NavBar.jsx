@@ -18,7 +18,7 @@ const NavBar = () => {
               <nav className='list_background_column_mobil'>
                 <ul>
                   <li onClick={handleClickMenu}><a href="#RSVP"> 💌 RSVP</a></li>
-                  <li onClick={handleClickMenu}><a href="#location">🧭 Le Lieux</a></li>
+                  <li onClick={handleClickMenu}><a href="#location">🧭 Le Lieu</a></li>
                   <li onClick={handleClickMenu}><a href="#program">🎉 Programme</a></li>
                   <li onClick={handleClickMenu}><a href="#gift">🎁 Cadeaux</a></li>
                   <li onClick={handleClickMenu}><a href="#contact">🤙 Contact</a></li>
@@ -32,7 +32,7 @@ const NavBar = () => {
        <nav className='list_background computer'>
            <ul>
            <li><a href="#RSVP">RSVP</a></li>
-           <li><a href="#location">Le Lieux</a></li>
+           <li><a href="#location">Le Lieu</a></li>
            <li><a href="#program">Programme</a></li>
            <li><a href="#gift">Cadeaux</a></li>
            <li><a href="#contact">Contact</a></li>
