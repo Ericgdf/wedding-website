@@ -10,7 +10,7 @@ const Program_section = () => {
         <div className='event_background left start'> 
             <div className="text">
               <p className="timeAndDate_text">Vendredi 10 mai <br/>16h00 :</p>
-              <p className="event_text">Cérémonie Laïque au Château de Bône</p>
+              <p className="event_text">Cérémonie laïque au Château Bone</p>
             </div>
             <div className="ring"></div>
           </div>

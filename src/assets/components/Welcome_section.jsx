@@ -66,15 +66,12 @@ const Welcome_section = () => {
         />
       </div>
       <p className="wedding_date">Vous invitent à leur mariage le</p>
-      <p className="wedding_date_number"> 10 et 11 Mai 2024</p>
+      <p className="wedding_date_number"> 10 Mai 2024</p>
       <a href="https://forms.gle/weB1wzceaKwbr8t98" target="_blank">
         <button>RSVP avant le 20 Janvier</button>
       </a>
       <p className="text_welcome_section">
-        Nous sommes ravis de partager ce moment spécial avec vous. Ici, vous
-        trouverez toutes les informations dont vous aurez besoin pour vous
-        joindre à notre célébration. Nous sommes impatients de créer des
-        souvenirs inoubliables ensemble.
+      Nous serions heureux de partager ce moment important avec vous. Ici, Vous trouverez quelques informations pour vous joindre à notre cérémonie. Nous sommes impatients de vous y retrouver. 
       </p>
     </div>
   );

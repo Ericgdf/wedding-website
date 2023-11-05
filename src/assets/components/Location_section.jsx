@@ -9,7 +9,7 @@ const Location_section = () => {
         <div className="presentation_location_background">
             <img className= 'castle_picture' src={castlePicture} alt="" />
             <div className="text_presentation_background">
-                <p>Nous aurons le plaisir de vous accueillir dans une ancienne propriété viticole du blayais au bord de l’estuaire de la Gironde.
+                <p>Nous aurons le plaisir de vous accueillir au château Bone, un ancienne propriété viticole du blayais au bord de l’estuaire de la Gironde.
                     Pour les curieux vous pouvez poursuivre <a className='go_to_castle_website' href='https://chateaubone.wixsite.com/monsite' target='_blank'>ici !</a></p>
                 <p>Adresse :
                     2 rue des pigeonniers, 33710 Gauriac <br/>
