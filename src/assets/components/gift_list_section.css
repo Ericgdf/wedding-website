@@ -5,6 +5,10 @@
     align-items: center;
 }
 
+.gift{
+    padding-bottom: 0;
+}
+
 .gift_explanation{
     text-align: center;
 }
