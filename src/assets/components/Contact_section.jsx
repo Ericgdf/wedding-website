@@ -5,7 +5,7 @@ import contactPicture from '../img/mariage_califourchon.png'
 const ContactSection = () => {
   return (
     <div className='contact_background'>
-        <h2 className='section_title' id='contact'>Contact</h2>
+        <h2 className='section_title' id='contact'>Contacts</h2>
         <div className="contact_content_background">
           <div className="overlay_contact"> </div>
             <img className='contact_picture' src={contactPicture} alt="" />

@@ -65,7 +65,7 @@ const Welcome_section = () => {
           id="RSVP"
         />
       </div>
-      <p className="wedding_date">Vous invitent à leur mariage le</p>
+      <p className="wedding_date">et leurs parents vous invitent à leur mariage le</p>
       <p className="wedding_date_number"> 10 Mai 2024</p>
       <a href="https://forms.gle/weB1wzceaKwbr8t98" target="_blank">
         <button>RSVP avant le 20 Janvier</button>
