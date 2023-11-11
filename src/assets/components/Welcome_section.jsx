@@ -57,6 +57,10 @@ const Welcome_section = () => {
       <div className="img_container">
         <div className="overlay">
           <p className="welcome_text">Hortense & Théo </p>
+          <div className="parent_name_container">
+            <p className="parent left">Marynoel et Jacques Séval</p>
+            <p className="parent right">Dominique et Luc Egnell</p>
+          </div>
         </div>
         <img
           className="home_img"
@@ -65,13 +69,13 @@ const Welcome_section = () => {
           id="RSVP"
         />
       </div>
-      <p className="wedding_date">et leurs parents vous invitent à leur mariage le</p>
+      <p className="wedding_date"> vous invitent à leur mariage le</p>
       <p className="wedding_date_number"> 10 Mai 2024</p>
       <a href="https://forms.gle/weB1wzceaKwbr8t98" target="_blank">
         <button>RSVP avant le 20 Janvier</button>
       </a>
       <p className="text_welcome_section">
-      Nous serions heureux de partager ce moment important avec vous. Ici, Vous trouverez quelques informations pour vous joindre à notre cérémonie. Nous sommes impatients de vous y retrouver. 
+      Nous serions heureux de partager ce moment important avec vous. Ici, vous trouverez quelques informations pour vous joindre à notre cérémonie. Nous sommes impatients de vous y retrouver. 
       </p>
     </div>
   );
