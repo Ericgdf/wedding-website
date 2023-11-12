@@ -11,6 +11,7 @@
 }
 
 .main_picture{
+    transform: rotate(-10deg);
     position: relative;
     z-index: 300;
     width: 8.5em; 
@@ -33,7 +34,7 @@
 }
 
 .straight{
-    transform: rotate(0);
+    transform: rotate(-10deg);
 }
 
 .diag{

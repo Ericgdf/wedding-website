@@ -21,6 +21,7 @@ const NavBar = () => {
                   <li onClick={handleClickMenu}><a href="#location">🧭 Le Lieu</a></li>
                   <li onClick={handleClickMenu}><a href="#program">🎉 Programme</a></li>
                   <li onClick={handleClickMenu}><a href="#gift">🎁 Liste de mariage</a></li>
+                  <li onClick={handleClickMenu}><a href="#share_photo">📸 Partage des photos</a></li>
                   <li onClick={handleClickMenu}><a href="#contact">🤙 Contacts</a></li>
                 </ul>
                </nav>
@@ -35,6 +36,7 @@ const NavBar = () => {
            <li><a href="#location">Le Lieu</a></li>
            <li><a href="#program">Programme</a></li>
            <li><a href="#gift">Liste de mariage</a></li>
+           <li><a href="#share_photo">Partage des photos</a></li>
            <li><a href="#contact">Contacts</a></li>
            </ul>
      </nav>

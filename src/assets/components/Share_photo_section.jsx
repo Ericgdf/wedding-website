@@ -15,10 +15,10 @@ const SharePhotoSection = () => {
   return (
     <div className="partage_photo_section">
       <h2 className="section_title" id="share_photo">
-        Partager vos photos
+        Partagez vos photos
       </h2>
       <p className="prez_photo_share">
-        Vous trouverez ici, un dossier pour nous partager vos photo du mariage
+        Vous trouverez ici, un dossier pour nous partager vos photo du mariage.
       </p>
       <div className="add_picture_container">
         <img className="main_picture" src={pictureIcon} alt="" />
