@@ -1,0 +1,48 @@
+.partage_photo_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.add_picture_container{
+    margin-top: 2em;
+    position: relative;
+}
+
+.main_picture{
+    position: relative;
+    z-index: 300;
+    width: 8.5em; 
+    height: 10em;
+    transition: transform 0.5s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    
+}
+
+.background_picture{
+    z-index: 200;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 8.5em; 
+    height: 10em;
+    background-size: cover;
+    transition: transform 0.5s ease, top 0.5s ease, left 0.5s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.straight{
+    transform: rotate(0);
+}
+
+.diag{
+    top: 10px;
+    left: 40px;
+    transform: rotate(25deg);
+}
+
+.prez_photo_share{
+    text-align: center;
+    padding: 1em;
+}

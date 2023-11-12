@@ -8,6 +8,7 @@ import Separator from '../assets/components/Separator'
 import Program_section from '../assets/components/Program_section'
 import Gift_list_section from '../assets/components/Gift_list_section'
 import ContactSection from '../assets/components/Contact_section'
+import SharePhotoSection from '../assets/components/Share_photo_section';
 
 const Home = () => {
   return (
@@ -20,6 +21,8 @@ const Home = () => {
       <Program_section/>
       <Separator/>
       <Gift_list_section/>
+      <Separator/>
+      <SharePhotoSection/>
       <Separator/>
       <ContactSection/>
     </div>
