@@ -6,54 +6,52 @@
 
 .timeline_background{
     display: flex;
-    gap :0
+    flex-direction: column;
+    align-items: center;
     
 }
 
-.event_background{
+.timeline_container{
+    display: flex;
+    justify-content: center;
+    gap: 0;
+}
+
+.text_right{
+    width: 50%;
     gap: 1em;
-}
-
-.left{
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    margin-right: -0.6em;
     text-align: end;
+    justify-content: flex-end;
+    border-right: solid 4px var(--text-color);
 }
 
-.right{
+.text_left{
+    width: 50%;
+    justify-content: flex-end;
+    margin-left: -12px;
+    gap: 1em;
+    padding-top: 6em;
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin-left: -0.6em;
+    flex-direction: row-reverse;
+    align-items: end;
+
 }
-
-.start{
-    align-items: flex-start;
-}
-
-.end{
-    align-items: flex-end;
-}
-
-.timeline_left{
-    border-right: 4px solid var(--text-color);
-}
-
-
-
-.shadow_box{
-    height: 8em;
-}
-
 
 .ring{
     height: 1em;
-    width: 1em;
+    min-width: 1em;
     background-color: var(--text-color-light);
     border: 3px solid var(--text-color);
     border-radius: 1em;
+    margin-right: -11px;
+}
+
+.line{
+    margin-left: 7px;
+    width: 4px;
+    background-color: var(--text-color);
+    height: 6em;
 }
 
 .timeAndDate_text{
@@ -64,6 +62,7 @@
 
 .event_text{
     font-weight: 500;
+    overflow-wrap: break-word;
 }
 
 @media screen and (max-width:  800px) {
@@ -71,18 +70,7 @@
         height: 1em;
         width: 1em;
         padding: 0.3em;
-    }
-
-    .left{
-        margin-left: 0;
-    }
-
-    .right{
-        margin-right: 0;
-    }
-
-    
-
+    }   
 }
 
 
@@ -94,8 +82,4 @@
     .event_text{
         font-size: 0.8em;
     }
-
-  
-
-
 }
