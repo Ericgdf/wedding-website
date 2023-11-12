@@ -25,7 +25,7 @@ const SharePhotoSection = () => {
         <img className={boutonIsOver ? "background_picture diag" : "background_picture straight"} src={pictureIcon2} alt="" />
       </div>
       <a
-        href="https://drive.google.com/drive/folders/1w2GyrTqEneqk58ASPbwMwqGf_v7dR-Fe?usp=sharing"
+        href="https://forms.gle/9h9LPBe9R8HvL8LL7"
         target="_blank"
       >
         <button
