@@ -96,10 +96,23 @@ button:hover{
     text-align: center;
 
 }
-
 @media screen and (max-width:  750px) {
     .parent_name_container{
-        display: none;
+        padding-left: 0.4rem;
+        padding-right: 0.4rem;
+        gap: 3rem;
+    }
+
+    .parent{
+        font-size: 1rem;
+    }
+
+    .left{
+        text-align: start;
+    }
+
+    .right{
+        text-align: end;
     }
 }
 
