@@ -1,4 +1,3 @@
-import React from "react";
 import "./program_section.css";
 
 const Program_section = () => {
@@ -72,7 +71,7 @@ const Program_section = () => {
             <div className="text">
               <p className="timeAndDate_text">
                 Samedi 11 Mai <br />
-                10h30 :
+                12h00 :
               </p>
               <p className="event_text">Brunch au Château</p>
             </div>

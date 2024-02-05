@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import arbreImg from "../img/mariage_arbre.jpg";
 import "../components/welcome_section.css";
 import confetti from "canvas-confetti";
@@ -71,9 +71,6 @@ const Welcome_section = () => {
       </div>
       <p className="wedding_date"> vous invitent à leur mariage le</p>
       <p className="wedding_date_number"> 10 Mai 2024</p>
-      <a href="https://forms.gle/weB1wzceaKwbr8t98" target="_blank">
-        <button>RSVP avant le 20 Janvier</button>
-      </a>
       <p className="text_welcome_section">
       Nous serions heureux de partager ce moment important avec vous. Ici, vous trouverez quelques informations pour vous joindre à notre cérémonie. Nous sommes impatients de vous y retrouver. 
       </p>

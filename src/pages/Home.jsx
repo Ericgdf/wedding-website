@@ -1,5 +1,3 @@
-import React from 'react'
-
 import '../pages/home.css'
 import Welcome_section from '../assets/components/Welcome_section'
 import NavBar from '../assets/components/NavBar'

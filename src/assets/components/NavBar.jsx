@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import '../components/navBar.css'
 import IconMenu from '../img/menu.png'
 
@@ -8,7 +8,7 @@ const NavBar = () => {
 
   function handleClickMenu() {
     setBurgerMenuOpen(!burgerMenuOpen)
-  };
+  }
   
   return (
     <div className='nav_background'>

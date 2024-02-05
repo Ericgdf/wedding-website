@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import pictureIcon from "../../assets/img/polaroid1.png";
 import pictureIcon2 from "../../assets/img/polaroid2.png";
 import "./share_photo_section.css";
@@ -26,7 +26,7 @@ const SharePhotoSection = () => {
       </div>
       <a
         href="https://forms.gle/9h9LPBe9R8HvL8LL7"
-        target="_blank"
+        target="_blank" rel="noreferrer"
       >
         <button
           className="add_picture_button"

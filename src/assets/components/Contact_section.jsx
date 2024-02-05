@@ -1,4 +1,3 @@
-import React from 'react'
 import '../components/contact_section.css'
 import contactPicture from '../img/mariage_califourchon.png'
 
