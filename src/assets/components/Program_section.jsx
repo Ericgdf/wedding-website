@@ -12,7 +12,7 @@ const Program_section = () => {
             <div className="text">
               <p className="timeAndDate_text">
                 Vendredi 10 mai <br />
-                16h00 :
+                16h30 :
               </p>
               <p className="event_text">Cérémonie laïque au Château Bone</p>
             </div>
@@ -22,7 +22,7 @@ const Program_section = () => {
             <div className="text">
               <p className="timeAndDate_text">
                 Vendredi 10 mai <br />
-                18h30 :
+                18h00 :
               </p>
               <p className="event_text">Cocktail dans le parc du Château</p>
             </div>
@@ -36,7 +36,7 @@ const Program_section = () => {
             <div className="text">
               <p className="timeAndDate_text">
                 Vendredi 10 mai <br />
-                20h30 :
+                20h00 :
               </p>
               <p className="event_text">Dîner</p>
             </div>
@@ -46,7 +46,7 @@ const Program_section = () => {
             <div className="text">
               <p className="timeAndDate_text">
                 Vendredi 10 mai <br />
-                23h30 :
+                23h00 :
               </p>
               <p className="event_text">
                 Ouverture du bal par nos deux amoureux
@@ -71,7 +71,7 @@ const Program_section = () => {
             <div className="text">
               <p className="timeAndDate_text">
                 Samedi 11 Mai <br />
-                12h00 :
+                11h00 :
               </p>
               <p className="event_text">Brunch au Château</p>
             </div>
